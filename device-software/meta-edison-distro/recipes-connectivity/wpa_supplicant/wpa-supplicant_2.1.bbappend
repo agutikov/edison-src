@@ -22,6 +22,7 @@ BASE_SRC_URI = "file://defconfig-gnutls \
            file://wpa_supplicant_p2p_event.service \
            file://wpa-supplicant.sh \
            file://wpa-supplicant-${PV}.patch \
+           file://fix-libnl3-host-contamination.patch \
            file://wpa_cli-actions.sh "
 
 SRC_URI = "${BASE_SRC_URI} \
