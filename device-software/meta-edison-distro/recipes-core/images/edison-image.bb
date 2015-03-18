@@ -128,3 +128,9 @@ IMAGE_INSTALL += "swig"
 IMAGE_INSTALL += "mcu-fw-load"
 IMAGE_INSTALL += "mcu-fw-bin"
 
+# NFS
+IMAGE_INSTALL += "nfs-utils"
+
+
+
+
