@@ -48,7 +48,7 @@ FILES_${PN}-clients = "${bindir}/mosquitto_pub \
 
 FILES_${PN}-staticdev += "${libdir}/libmosquitto.a"
 
-FILES_${PN}-python = "/usr/lib/python2.7/site-packages"
+FILES_${PN}-python = "/usr/lib64/python2.7/site-packages"
 
 inherit systemd
 
