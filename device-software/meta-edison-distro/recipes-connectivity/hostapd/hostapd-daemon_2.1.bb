@@ -17,9 +17,16 @@ SRC_URI = " \
     file://udhcpd-for-hostapd.service \
     file://hostapd.conf-sane \
     file://udhcpd-for-hostapd.conf \
+    file://fix-libnl3-host-contamination.hostapd.patch \
 "
 
 S = "${WORKDIR}/hostapd-${PV}/hostapd"
+
+do_patch() {
+	echo "FIXME:"
+	cd ${WORKDIR}/hostapd-${PV}/
+	patch -p1 < ${WORKDIR}/fix-libnl3-host-contamination.hostapd.patch
+}
 
 do_configure() {
     install -m 0644 ${WORKDIR}/defconfig ${S}/.config
