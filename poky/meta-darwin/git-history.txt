@@ -1,0 +1,11 @@
+3ab8b03 Revert "odcctools2: Remove use of "new typename" constructors"
+be33397 odcctools2: Remove use of "new typename" constructors
+6904814 gcc-cross-canadian: Fix C++ standard library headers on OS X
+fd10fa9 gcc: Fix unshipped files warning
+71909e5 osx-runtime: Avoid copying a patches directory over
+5ea34b4 odcctools2: Add missing DEPENDS
+4ef042a binutils-cross-canadian: Catch up with daisy recipe upgrades
+e3e8d8f packagegroup-cross-canadian: Update after OE-Core meta-environment changes
+ed544ef README: Improve slightly
+dde0c93 Add odcctools2 which works on 64 bit systems
+6085574 Initial population

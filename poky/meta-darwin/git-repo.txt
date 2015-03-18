@@ -1,0 +1,14 @@
+* remote origin
+  Fetch URL: https://git.yoctoproject.org/git/meta-darwin
+  Push  URL: https://git.yoctoproject.org/git/meta-darwin
+  HEAD branch: master
+  Remote branches:
+    daisy                       tracked
+    dora                        tracked
+    dylan                       tracked
+    experimental-target-clutter tracked
+    master                      tracked
+  Local branch configured for 'git pull':
+    daisy merges with remote daisy
+  Local ref configured for 'git push':
+    daisy pushes to daisy (up to date)
