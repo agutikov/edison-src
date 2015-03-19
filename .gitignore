@@ -25,4 +25,5 @@ mw/oobe/node_modules/
 
 build/symbols/
 build/toFlash/
+*flash.log
 
